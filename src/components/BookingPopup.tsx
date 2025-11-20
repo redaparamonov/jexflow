@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { X } from "lucide-react";
 
 export const BookingPopup = () => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [hasShown, setHasShown] = useState(false);
 
@@ -49,15 +51,12 @@ export const BookingPopup = () => {
           <div className="relative px-8 py-10 md:px-12 md:py-14">
             <form 
               name="strategy-session" 
-              method="POST" 
-              data-netlify="true" 
-              action="/booking-confirmed"
+              onSubmit={(e) => {
+                e.preventDefault();
+                navigate("/booking-confirmed");
+              }}
               className="space-y-6"
             >
-              <input type="hidden" name="form-name" value="strategy-session" />
-              <p className="hidden">
-                <label>Don't fill this out: <input name="bot-field" /></label>
-              </p>
 
               <div className="space-y-4 text-center animate-fade-in-up">
                 {/* Trust badge */}
