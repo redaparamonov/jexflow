@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/success.html",
+      "destination": "/booking-confirmed"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
