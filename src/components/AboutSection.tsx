@@ -39,7 +39,7 @@ const AboutSection = () => {
                       const photo = document.querySelector('.founder-photo-reda');
                       if (photo) photo.classList.remove('founder-rise');
                     }}
-                  >Reda</span>. For the past ten years, we've been more than just business partners; we've been friends, dreamers, and builders. And JEXFLOW is the culmination of that shared journey.
+                  >Reda</span>. For the past years, we've been more than just business partners; we've been friends, dreamers, and builders. And JEXFLOW is the culmination of that shared journey.
                 </p>
                 
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
