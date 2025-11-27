@@ -7,7 +7,7 @@ const PricingSection = () => {
   const pricingPlans = [
     {
       title: "AI Call Receptionist",
-      price: "$599",
+      price: "$1599",
       period: "One-Time Purchase",
       features: [
         "24/7 call answering & routing",
@@ -19,7 +19,7 @@ const PricingSection = () => {
     },
     {
       title: "AI Proposal Generator",
-      price: "$499",
+      price: "$1499",
       period: "One-Time Purchase",
       features: [
         "Generate proposals in 60 seconds",
@@ -31,7 +31,7 @@ const PricingSection = () => {
     },
     {
       title: "YouTube Content Generator",
-      price: "$499",
+      price: "$1499",
       period: "One-Time Purchase",
       features: [
         "Viral title & description generator",
@@ -43,7 +43,7 @@ const PricingSection = () => {
     },
     {
       title: "Personalized Cold Email Generator",
-      price: "$599",
+      price: "$1599",
       period: "One-Time Purchase",
       features: [
         "Write 100s of personalized emails",
@@ -55,7 +55,7 @@ const PricingSection = () => {
     },
     {
       title: "Lead Generator",
-      price: "$599",
+      price: "$1599",
       period: "One-Time Purchase",
       features: [
         "Find 500+ targeted leads daily",
